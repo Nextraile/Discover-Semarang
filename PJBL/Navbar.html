@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Navbar Semua Font Poppins</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 1rem 2rem;
+    }
+
+    .nav-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .account-button {
+      background-color: #facc15;
+      color: black;
+      padding: 0.4rem 1rem;
+      border-radius: 9999px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div style="font-weight: bold; font-size: 1.2rem;">Discover Semarang</div>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">List Destinasi</a></li>
+      </ul>
+      <a href="#" class="account-button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" width="18" height="18">
+          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+        </svg>
+        Akun
+      </a>
+    </div>
+  </nav>
+</body>
+</html>
