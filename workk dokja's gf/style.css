@@ -1,0 +1,1036 @@
+.halaman-destinasi {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.halaman-destinasi .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 2253px;
+  position: relative;
+}
+
+.halaman-destinasi .group {
+  position: absolute;
+  width: 1440px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 5px 10px #00000040;
+}
+
+.halaman-destinasi .navbar-home-page {
+  position: relative;
+  height: 70px;
+  right: 4px;
+  background-color: #302f2f;
+  border-radius: 8px;
+}
+
+.halaman-destinasi .beranda {
+  position: absolute;
+  height: 30px;
+  top: 23px;
+  left: 677px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .list-destinasi {
+  position: absolute;
+  height: 30px;
+  top: 23px;
+  left: 789px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .title {
+  position: absolute;
+  width: 245px;
+  height: 36px;
+  top: 22px;
+  left: 70px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #fffafa;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .group-akun {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  top: 15px;
+  left: 1240px;
+  background-color: #feba17;
+  border-radius: 50px;
+}
+
+.halaman-destinasi .akun {
+  position: relative;
+  width: 98px;
+  height: 30px;
+  top: 10px;
+  left: 16px;
+}
+
+.halaman-destinasi .account {
+  position: absolute;
+  width: 69px;
+  height: 35px;
+  top: 0px;
+  left: 28px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #302f2f;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .person{
+  position: absolute;
+  width: 25px;
+  height: 29px;
+  top: 0;
+  left: 0;
+}
+
+.halaman-destinasi .overlap-group-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 228px;
+  top: 2025px;
+  left: 0;
+}
+
+.halaman-destinasi .overlap-group {
+  position: relative;
+  height: 228px;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.halaman-destinasi .footer {
+  position: absolute;
+  width: 1445px;
+  height: 228px;
+  top: 0;
+  background-color: #302f2f;
+  border-radius: var(--shape-corner-medium) var(--shape-corner-medium) 0px 0px;
+}
+
+.halaman-destinasi .border {
+  position: absolute;
+  width: 1150px;
+  height: 2px;
+  top: 34px;
+  left: 145px;
+}
+
+.halaman-destinasi .group-3 {
+  position: absolute;
+  width: 399px;
+  height: 64px;
+  top: 82px;
+  left: 523px;
+}
+
+.halaman-destinasi .copyright {
+  position: absolute;
+  top: 0;
+  left: 135px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .copyright-2 {
+  position: absolute;
+  top: 34px;
+  left: 25px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .overlap {
+  position: absolute;
+  width: 1316px;
+  height: 1855px;
+  top: 120px;
+  left: 65px;
+}
+
+.halaman-destinasi .overlap-wrapper {
+  position: absolute;
+  width: 1316px;
+  height: 1855px;
+  top: 0;
+  left: 0;
+}
+
+.halaman-destinasi .overlap-2 {
+  position: relative;
+  width: 1310px;
+  height: 1855px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px #0000001a;
+}
+
+.halaman-destinasi .bg-map {
+  position: absolute;
+  width: 1310px;
+  height: 409px;
+  top: 0;
+  left: 0;
+  background-image: url(mapp.jpg);
+  background-size: 100% 100%;
+}
+
+.halaman-destinasi .div-wrapper {
+  position: absolute;
+  width: 86px;
+  height: 26px;
+  top: 359px;
+  left: 24px;
+}
+
+.halaman-destinasi .group-4 {
+  width: 88px;
+  height: 26px;
+}
+
+.halaman-destinasi .sjr {
+  position: relative;
+  width: 86px;
+  height: 26px;
+  background-color: #feba17bf;
+  border-radius: 50px;
+}
+
+.halaman-destinasi .sejarah {
+  position: absolute;
+  width: 81px;
+  height: 19px;
+  top: 3px;
+  left: 3px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffffbf;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.halaman-destinasi .judul {
+  position: absolute;
+  width: 233px;
+  height: 81px;
+  top: 262px;
+  left: 24px;
+}
+
+.halaman-destinasi .title-map {
+  position: absolute;
+  width: 215px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .group-ulasan {
+  position: absolute;
+  width: 235px;
+  height: 25px;
+  top: 56px;
+  left: 0;
+}
+
+.halaman-destinasi .nilai {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  top: 0;
+  left: 101px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffd700;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .ulasan {
+  position: absolute;
+  width: 98px;
+  height: 25px;
+  top: 0;
+  left: 133px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .img-bintang {
+  position: absolute;
+  width: 98px;
+  height: 16px;
+  top: 0px;
+  left: 0;
+}
+
+.halaman-destinasi .tentang {
+  position: absolute;
+  width: 109px;
+  height: 39px;
+  top: 433px;
+  left: 23px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .last-up {
+  position: absolute;
+  width: 916px;
+  height: 153px;
+  top: 463px;
+  left: 23px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #374151;
+  opacity: 50%;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .galeri-foto {
+  position: absolute;
+  width: 141px;
+  height: 39px;
+  top: 658px;
+  left: 23px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .saloka-theme-park {
+  position: absolute;
+  width: 916px;
+  height: 153px;
+  top: 488px;
+  left: 23px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .foto {
+  position: absolute;
+  width: 920px;
+  height: 213px;
+  top: 713px;
+  left: 23px;
+}
+
+.halaman-destinasi .lawang-sewu {
+  left: 0;
+  position: absolute;
+  width: 301px;
+  height: 213px;
+  top: 0;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.halaman-destinasi .lawangsewu {
+  position: absolute;
+  width: 301px;
+  height: 213px;
+  top: 0;
+  left: 309px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.halaman-destinasi .lawang-sewu-2 {
+  left: 618px;
+  position: absolute;
+  width: 301px;
+  height: 213px;
+  top: 0;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.halaman-destinasi .group-info {
+  position: absolute;
+  width: 333px;
+  height: 492px;
+  top: 433px;
+  left: 959px;
+}
+
+.halaman-destinasi .grup-informasi {
+  position: relative;
+  width: 323px;
+  height: 492px;
+  background-color: #f9fafb80;
+  border-radius: 8px;
+}
+
+.halaman-destinasi .informasi {
+  position: absolute;
+  width: 123px;
+  height: 38px;
+  top: 18px;
+  left: 18px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .no-telp {
+  position: absolute;
+  width: 123px;
+  height: 24px;
+  top: 212px;
+  left: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .ig {
+  position: absolute;
+  width: 123px;
+  height: 24px;
+  top: 245px;
+  left: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .ig2 {
+  position: absolute;
+  width: 123px;
+  height: 24px;
+  top: 265px;
+  left: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .icon-ig {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 245px;
+  left: 19px;
+}
+
+.halaman-destinasi .fb {
+  position: absolute;
+  width: 123px;
+  height: 24px;
+  top: 290px;
+  left: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .fb2 {
+  position: absolute;
+  width: 123px;
+  height: 24px;
+  top: 310px;
+  left: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .icon-fb {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 289px;
+  left: 19px;
+}
+
+.halaman-destinasi .overlap-group-haribuka {
+  position: absolute;
+  width: 253px;
+  height: 47px;
+  top: 254px;
+  left: 18px;
+}
+
+.halaman-destinasi .jam-buka {
+  position: absolute;
+  width: 225px;
+  height: 24px;
+  top: 105px;
+  left: 28px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .group-jamop {
+  position: absolute;
+  width: 170px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.halaman-destinasi .title-jam-buka {
+  position: absolute;
+  width: 140px;
+  height: 24px;
+  top: 95px;
+  left: 28px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .icon-jamop {
+  position: absolute;
+  width: 21px;
+  height: 22px;
+  top: 93px;
+  left: 0px;
+}
+
+.halaman-destinasi .tiket-dewasa {
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  top: 458px;
+  left: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .tiket-anak {
+  position: absolute;
+  width: 171px;
+  height: 24px;
+  top: 482px;
+  left: 46px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .group-jalan {
+  position: absolute;
+  width: 270px;
+  height: 99px;
+  top: 71px;
+  left: 18px;
+}
+
+.halaman-destinasi .jalan {
+  position: absolute;
+  width: 240px;
+  height: 75px;
+  top: 9px;
+  left: 28px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #374151;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .group-alamat {
+  position: absolute;
+  width: 90px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.halaman-destinasi .text-alamat {
+  position: absolute;
+  width: 60px;
+  height: 24px;
+  top: 0;
+  left: 28px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .icon-alamat {
+  position: absolute;
+  width: 20px;
+  height: 21px;
+  top: 2px;
+  left: 0;
+}
+
+.halaman-destinasi .group-kontak {
+  position: absolute;
+  width: 87px;
+  height: 24px;
+  top: 188px;
+  left: 18px;
+}
+
+.halaman-destinasi .kontak {
+  position: absolute;
+  width: 57px;
+  height: 24px;
+  top: 0;
+  left: 28px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .icon-kontak {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 2px;
+  left: 0;
+}
+
+.halaman-destinasi .group-htm {
+  position: absolute;
+  width: 186px;
+  height: 24px;
+  top: 321px;
+  left: 18px;
+}
+
+.halaman-destinasi .text-htm {
+  position: absolute;
+  width: 149px;
+  height: 24px;
+  top: 110px;
+  left: 28px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .icon-htm {
+  position: absolute;
+  width: 23px;
+  height: 17px;
+  top: 110px;
+  left: 0;
+}
+
+.halaman-destinasi .group-add-ulasan {
+  position: absolute;
+  width: 1265px;
+  height: 418px;
+  top: 948px;
+  left: 23px;
+}
+
+.halaman-destinasi .overlap-5 {
+  position: relative;
+  width: 1259px;
+  height: 418px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+
+.halaman-destinasi .tambahkan-ulasan {
+  position: absolute;
+  width: 141px;
+  height: 38px;
+  top: 20px;
+  left: 24px;
+  font-family: "Poppins-Bold" Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .rating {
+  position: absolute;
+  width: 53px;
+  height: 25px;
+  top: 79px;
+  left: 24px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .text-ulasan {
+  position: absolute;
+  width: 56px;
+  height: 25px;
+  top: 159px;
+  left: 24px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .bintang-rating {
+  position: absolute;
+  width: 166px;
+  height: 35px;
+  top: 113px;
+  left: 24px;
+}
+
+.halaman-destinasi .grup-komen {
+  position: absolute;
+  width: 1213px;
+  height: 109px;
+  top: 193px;
+  left: 24px;
+}
+
+.halaman-destinasi .kolom-komen {
+  position: relative;
+  width: 1211px;
+  height: 109px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #d1d5db;
+}
+
+.halaman-destinasi .bagikan-pengalaman {
+  position: absolute;
+  width: 176px;
+  top: 13px;
+  left: 12px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #33333380;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .group-kirim {
+  position: absolute;
+  width: 143px;
+  height: 51px;
+  top: 318px;
+  left: 24px;
+}
+
+.halaman-destinasi .kirim {
+  position: relative;
+  width: 141px;
+  height: 50px;
+  background-color: #feba17;
+  border-radius: 8px;
+}
+
+.halaman-destinasi .text-kirim {
+  position: absolute;
+  width: 103px;
+  height: 25px;
+  top: 16px;
+  left: 20px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .group-18 {
+  position: absolute;
+  width: 1259px;
+  height: 381px;
+  top: 1378px;
+  left: 23px;
+}
+
+.halaman-destinasi .group-19 {
+  position: absolute;
+  width: 1265px;
+  height: 111px;
+  top: 0;
+  left: 0;
+}
+
+.halaman-destinasi .overlap-group-5 {
+  position: relative;
+  width: 1259px;
+  height: 111px;
+}
+
+.halaman-destinasi .rectangle {
+  width: 40px;
+  height: 40px;
+  top: 2px;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  position: absolute;
+  left: 0;
+}
+
+.halaman-destinasi .text-wrapper-24 {
+  position: absolute;
+  width: 108px;
+  height: 24px;
+  top: 0;
+  left: 48px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .text-wrapper-25 {
+  position: absolute;
+  width: 1235px;
+  height: 36px;
+  top: 58px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .text-wrapper-26 {
+  position: absolute;
+  width: 72px;
+  height: 18px;
+  top: 24px;
+  left: 142px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #333333bf;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .vector-5 {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 24px;
+  left: 48px;
+}
+
+.halaman-destinasi .vector-6 {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 24px;
+  left: 65px;
+}
+
+.halaman-destinasi .vector-7 {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 24px;
+  left: 83px;
+}
+
+.halaman-destinasi .vector-8 {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 24px;
+  left: 100px;
+}
+
+.halaman-destinasi .vector-9 {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 24px;
+  left: 119px;
+}
+
+.halaman-destinasi .rectangle-2 {
+  width: 1259px;
+  height: 111px;
+  top: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #e5e7eb;
+  position: absolute;
+  left: 0;
+}
+
+.halaman-destinasi .group-20 {
+  position: absolute;
+  width: 1265px;
+  height: 111px;
+  top: 135px;
+  left: 0;
+}
+
+.halaman-destinasi .group-21 {
+  position: absolute;
+  width: 1265px;
+  height: 111px;
+  top: 270px;
+  left: 0;
+}
+
+.halaman-destinasi .group-22 {
+  position: absolute;
+  width: 250px;
+  height: 48px;
+  top: 1783px;
+  left: 531px;
+}
+
+.halaman-destinasi .overlap-7 {
+  position: relative;
+  width: 248px;
+  height: 48px;
+  background-color: #302f2f;
+  border-radius: 8px;
+}
+
+.halaman-destinasi .more {
+  position: absolute;
+  height: 24px;
+  top: 14px;
+  left: 35px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.halaman-destinasi .line {
+  width: 1px;
+  height: 24px;
+  top: 379px;
+  left: 39px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.halaman-destinasi .line-2 {
+  width: 24px;
+  height: 1px;
+  top: 373px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
