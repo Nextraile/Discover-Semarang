@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+  <title>Admin Panel - Discover Semarang</title>
+  <style>
+     * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+   header {
+      background: #1c1c1c;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      max-width: 1440px;
+      margin: auto;
+    }
+    .logo {
+      font-weight: 600;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav a.active {
+      color: #FEBA17;
+    }
+    .akun-btn {
+      background: #FEBA17;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 5px;
+    }
+    .row {
+      display: flex;
+      gap: 10px;
+    }
+    .row input {
+      flex: 1;
+    }
+    footer {
+      background-color: #1c1c1c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+ <header>
+    <div class="logo">Discover Semarang</div>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#" class="active">List Destinasi</a>
+    </nav>
+    <button class="akun-btn">Akun</button>
+  </header>
+
+  <div class="container">
+    <h2>Admin Panel</h2>
+    <div class="row" style="justify-content: flex-end;">
+      <button class="btn btn-secondary">Kembali</button>
+      <button class="btn btn-primary">Edit</button>
+    </div>
+
+    <form>
+      <label>Deskripsi Destinasi</label>
+      <textarea rows="2"></textarea>
+
+      <label>Deskripsi Rekomendasi</label>
+      <textarea rows="2"></textarea>
+
+      <label>Alamat</label>
+      <input type="text">
+
+      <label>Email</label>
+      <input type="email">
+
+      <label>Nomor Telepon</label>
+      <input type="tel">
+
+      <label>Facebook</label>
+      <input type="text">
+
+      <label>Instagram</label>
+      <input type="text">
+
+      <label>Jam Operasional</label>
+      <div class="row">
+        <input type="text" placeholder="Senin - Jumat">
+        <input type="text" placeholder="Jam">
+      </div>
+      <div class="row">
+        <input type="text" placeholder="Sabtu - Minggu">
+        <input type="text" placeholder="Jam">
+      </div>
+
+      <label>Harga Tiket Masuk</label>
+      <input type="text" placeholder="Dewasa">
+      <input type="text" placeholder="Anak-anak">
+
+      <label>Link Maps</label>
+      <input type="url">
+
+      <label>Kategori</label>
+      <input type="text">
+
+      <label>Galeri Foto</label>
+      <input type="url">
+      <textarea rows="3" placeholder="Tambahkan link atau keterangan tambahan..."></textarea>
+    </form>
+  </div>
+
+  <footer>
+    <p>Contact Us : <br> contactdiscoversemarang@gmail.com</p>
+  </footer>
+</body>
+</html>

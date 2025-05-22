@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Semarang - Admin Panel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1c1c1c;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      margin: auto;
+    }
+    .logo {
+      font-weight: 600;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav a.active {
+      color: #FEBA17;
+    }
+    .akun-btn {
+      background: #FEBA17;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .container {
+      display: flex;
+      max-width: 1140px;
+      margin: 2rem auto;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .side
+    aside {
+      min-width: 200px;
+    }
+    aside ul {
+      list-style: none;
+    }
+    aside li {
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      background: #eee;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    aside > li:hover li:active li:{
+      background: #FEBA17;
+      font-weight: 600;
+    }
+    .main-content {
+      flex: 1;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      overflow-x: auto;
+    }
+    .main-content h2 {
+      margin-bottom: 1rem;
+    }
+    .search-add {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    .search-add input[type="text"] {
+      padding: 0.5rem;
+      flex: 1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 1rem;
+    }
+    .search-add button {
+      background: #1c1c1c;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      text-align: center;
+      padding: 0.5rem;
+      border-bottom: 1px solid #ccc;
+    }
+    .delete {
+      color: red;
+      cursor: pointer;
+    }
+    .total-pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+    .total-destinasi {
+      font-weight: bold;
+      display: flex;
+    }
+    .pagination {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .pagination button {
+      margin: 0 0.25rem;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #fff;
+      cursor: pointer;
+    }
+    .pagination button.active {
+      background: #FEBA17;
+      font-weight: bold;
+    }
+    footer {
+      background: #1c1c1c;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .search-add, .container {
+        flex-direction: column;
+      }
+      .search-add input[type="text"] {
+        margin: 0 0 1rem 0;
+      }
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Discover Semarang</div>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#" class="active">List Destinasi</a>
+    </nav>
+    <button class="akun-btn">Akun</button>
+  </header>
+
+  <div class="container">
+    <aside>
+      <ul>
+        <li class="active">Destinasi</li>
+        <li class="hover-active">Akses</li>
+      </ul>
+    </aside>
+    <div class="main-content">
+      <h2>Admin Panel</h2>
+      <div class="search-add">
+        <input type="text" placeholder="Cari destinasi...">
+        <button>+ Tambah Destinasi</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>NAMA</th>
+            <th>KATEGORI</th>
+            <th>RATING</th>
+            <th>HAPUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Saloka Theme Park</td>
+            <td>Hiburan</td>
+            <td>9.5</td>
+            <td class="delete">🗑</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Saloka Theme Park</td>
+            <td>Hiburan</td>
+            <td>9.5</td>
+            <td class="delete">🗑</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Saloka Theme Park</td>
+            <td>Hiburan</td>
+            <td>9.5</td>
+            <td class="delete">🗑</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Saloka Theme Park</td>
+            <td>Hiburan</td>
+            <td>9.5</td>
+            <td class="delete">🗑</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Saloka Theme Park</td>
+            <td>Hiburan</td>
+            <td>9.5</td>
+            <td class="delete">🗑</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="total-pagination">
+        <p class="total-destinasi">Total data: 24 destinasi</p>
+        <div class="pagination">
+         <button>«</button>
+         <button class="active">1</button>
+         <button>2</button>
+         <button>3</button>
+         <button>4</button>
+         <button>5</button>
+         <button>»</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Contact Us : <br> contactdiscoversemarang@gmail.com</p>
+  </footer>
+</body>
+</html>

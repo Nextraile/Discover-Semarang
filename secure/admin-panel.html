@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="adminPanel" class="py-8 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Admin Panel</h2>
+            
+            <div class="flex flex-wrap">
+                <!-- Admin Sidebar -->
+                <div class="w-full md:w-1/5 bg-white rounded-lg shadow-md p-6 mb-6 md:mb-0">
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mr-3 text-white">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold">Admin</h3>
+                            <p class="text-sm text-gray-600">admin@semarangtourism.com</p>
+                        </div>
+                    </div>
+                    
+                    <nav class="space-y-2">
+                        <a href="#" class="block px-4 py-2 bg-blue-600 text-white rounded-lg">
+                            <i class="fas fa-map-marker-alt mr-2"></i> Destinasi
+                        </a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 rounded-lg transition">
+                            <i class="fas fa-th-large mr-2"></i> Kategori
+                        </a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 rounded-lg transition">
+                            <i class="fas fa-users mr-2"></i> Pengguna
+                        </a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 rounded-lg transition">
+                            <i class="fas fa-comment mr-2"></i> Ulasan
+                        </a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 rounded-lg transition">
+                            <i class="fas fa-cog mr-2"></i> Pengaturan
+                        </a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 rounded-lg transition">
+                            <i class="fas fa-sign-out-alt mr-2"></i> Logout
+                        </a>
+                    </nav>
+                </div>
+                
+                <!-- Admin Content -->
+                <div class="w-full md:w-4/5 md:pl-6">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <div class="flex justify-between items-center mb-6">
+                            <h3 class="text-xl font-bold">Manajemen Destinasi</h3>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition">
+                                <i class="fas fa-plus mr-2"></i> Tambah Destinasi
+                            </button>
+                        </div>
+                        
+                        <!-- Search Bar -->
+                        <div class="mb-6">
+                            <div class="relative">
+                                <input type="text" placeholder="Cari destinasi..." class="w-full border border-gray-300 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Destinations Table -->
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full bg-white">
+                                <thead>
+                                    <tr class="bg-gray-100 text-gray-700 uppercase text-sm leading-normal">
+                                        <th class="py-3 px-4 text-left">ID</th>
+                                        <th class="py-3 px-4 text-left">Gambar</th>
+                                        <th class="py-3 px-4 text-left">Nama</th>
+                                        <th class="py-3 px-4 text-left">Kategori</th>
+                                        <th class="py-3 px-4 text-left">Rating</th>
+                                        <th class="py-3 px-4 text-center">Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-gray-700 text-sm">
+                                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                                        <td class="py-3 px-4">1</td>
+                                        <td class="py-3 px-4">
+                                            <img src="https://cdn.klook.com/mage/m1/img/2020/08/13/123456-saloka-theme-park.jpg" alt="Saloka" class="w-10 h-10 rounded object-cover">
+                                        </td>
+                                        <td class="py-3 px-4 font-medium">Saloka Theme Park</td>
+                                        <td class="py-3 px-4">Hiburan</td>
+                                        <td class="py-3 px-4">
+                                            <div class="star-rating text-sm">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <span class="ml-1">4.5</span>
+                                            </div>
+                                        </td>
+                                        <td class="py-3 px-4 text-center">
+                                            <div class="flex items-center justify-center space-x-2">
+                                                <button class="text-blue-600 hover:text-blue-900">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button class="text-yellow-600 hover:text-yellow-900">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                                <button class="text-red-600 hover:text-red-900">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                                        <td class="py-3 px-4">2</td>
+                                        <td class="py-3 px-4">
+                                            <img src="https://cdn.klook.com/mage/m1/img/2020/08/13/789012-lawang-sewu.jpg" alt="Lawang Sewu" class="w-10 h-10 rounded object-cover">
+                                        </td>
+                                        <td class="py-3 px-4 font-medium">Lawang Sewu</td>
+                                        <td class="py-3 px-4">Sejarah</td>
+                                        <td class="py-3 px-4">
+                                            <div class="star-rating text-sm">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <span class="ml-1">4.8</span>
+                                            </div>
+                                        </td>
+                                        <td class="py-3 px-4 text-center">
+                                            <div class="flex items-center justify-center space-x-2">
+                                                <button class="text-blue-600 hover:text-blue-900">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button class="text-yellow-600 hover:text-yellow-900">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                                <button class="text-red-600 hover:text-red-900">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                                        <td class="py-3 px-4">3</td>
+                                        <td class="py-3 px-4">
+                                            <img src="https://asset.kompas.com/crops/GKokurQeTtFF5guAcbot1cjyb28=/77x0:1157x720/750x500/data/photo/2022/04/03/62496a8bf24e7.png" alt="Kampoeng Kopi Banaran" class="w-10 h-10 rounded object-cover">
+                                        </td>
+                                        <td class="py-3 px-4 font-medium">Kampoeng Kopi Banaran</td>
+                                        <td class="py-3 px-4">Alam</td>
+                                        <td class="py-3 px-4">
+                                            <div class="star-rating text-sm">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <span class="ml-1">4.0</span>
+                                            </div>
+                                        </td>
+                                        <td class="py-3 px-4 text-center">
+                                            <div class="flex items-center justify-center space-x-2">
+                                                <button class="text-blue-600 hover:text-blue-900">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button class="text-yellow-600 hover:text-yellow-900">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                                <button class="text-red-600 hover:text-red-900">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                                        <td class="py-3 px-4">4</td>
+                                        <td class="py-3 px-4">
+                                            <img src="https://asset.kompas.com/crops/M40CHckTfOkUJVKuizVVJYthMyg=/0x0:780x390/780x390/data/photo/2018/12/07/3329936930.jpg" alt="Kota Lama" class="w-10 h-10 rounded object-cover">
+                                        </td>
+                                        <td class="py-3 px-4 font-medium">Kota Lama</td>
+                                        <td class="py-3 px-4">Budaya, Sejarah</td>
+                                        <td class="py-3 px-4">
+                                            <div class="star-rating text-sm">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <span class="ml-1">4.2</span>
+                                            </div>
+                                        </td>
+                                        <td class="py-3 px-4 text-center">
+                                            <div class="flex items-center justify-center space-x-2">
+                                                <button class="text-blue-600 hover:text-blue-900">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button class="text-yellow-600 hover:text-yellow-900">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                                <button class="text-red-600 hover:text-red-900">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                                        <td class="py-3 px-4">5</td>
+                                        <td class="py-3 px-4">
+                                            <img src="https://images.pexels.com/photos/358464/pexels-photo-358464.jpeg" alt="Pasar Semawis" class="w-10 h-10 rounded object-cover">
+                                        </td>
+                                        <td class="py-3 px-4 font-medium">Pasar Semawis</td>
+                                        <td class="py-3 px-4">Kuliner, Budaya</td>
+                                        <td class="py-3 px-4">
+                                            <div class="star-rating text-sm">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <span class="ml-1">4.4</span>
+                                            </div>
+                                        </td>
+                                        <td class="py-3 px-4 text-center">
+                                            <div class="flex items-center justify-center space-x-2">
+                                                <button class="text-blue-600 hover:text-blue-900">
+                                                    <i class="fas fa-eye"></i>
+                                                </button>
+                                                <button class="text-yellow-600 hover:text-yellow-900">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                                <button class="text-red-600 hover:text-red-900">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <!-- Pagination -->
+                        <div class="flex justify-between items-center mt-6">
+                            <div class="text-sm text-gray-600">Menampilkan 1-5 dari 24 destinasi</div>
+                            <div class="flex space-x-1">
+                                <button class="px-3 py-1 rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-100">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <button class="px-3 py-1 rounded-lg border border-gray-300 bg-blue-600 text-white">1</button>
+                                <button class="px-3 py-1 rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-100">2</button>
+                                <button class="px-3 py-1 rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-100">3</button>
+                                <button class="px-3 py-1 rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-100">4</button>
+                                <button class="px-3 py-1 rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-100">5</button>
+                                <button class="px-3 py-1 rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-100">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
