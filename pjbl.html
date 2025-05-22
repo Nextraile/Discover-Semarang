@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Semarang</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 5px;
+      text-decoration: none;
+    }
+
+    .akun-button {
+      background-color: #ffc107;
+      padding: 5px 15px;
+      border: none;
+      border-radius: 20px;
+      color: black;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url(hero.png);
+      background-size: cover;
+      background-position: center;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 10px 0 20px;
+    }
+
+
+    .search-box {
+      background: white;
+      padding: 10px;
+      border-radius: 30px;
+      display: inline-flex;
+      width: 60%;
+      max-width: 400px;
+    }
+
+    .search-box input {
+      border: none;
+      flex: 1;
+      padding: 1px;
+      border-radius: 10px 0 0 10px;
+      font-size: 16px;
+    }
+
+    .search-box button {
+      border: none;
+      background: #222;
+      color: white;
+      padding: 10px 10px;
+      border-radius: 0 50px 50px 0;
+      cursor: pointer;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .container h3 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: rgb(255, 255, 255);
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+      width: 300px;
+      overflow: hidden;
+      border: 2px solid transparent;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .card-rating {
+      color: #ffa500;
+      float: right;
+    }
+
+    .tags span {
+      display: inline-block;
+      background-color: #eee;
+      padding: 3px 10px;
+      margin-right: 5px;
+      margin-top: 10px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+
+    .highlight {
+      border-color: #ffffff;
+    }
+
+    .see-all-button {
+      display: block;
+      margin: 30px auto;
+      background: #222;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 20px;
+      cursor: pointer;    
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 10px 10px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Discover Semarang</h1>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">List Destinasi</a>
+    </nav>
+   <button class="akun-button"><i class="fa-solid fa-user"></i> Akun</button>
+  </header>
+
+  <section class="hero">
+    <h2>Temukan Keindahan Semarang</h2>
+    <p>Jelajahi berbagai destinasi wisata menarik di Kota Lumpia</p>
+    <div class="search-box">
+      <input type="text" placeholder="Cari destinasi wisata">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+  </section>
+
+  <section class="container">
+    <h3>Rekomendasi Destinasi</h3>
+    <div class="card-container">
+      <div class="card">
+        <img src="lawang sewu.jpg" alt="Lawang Sewu">
+        <div class="card-content">
+          <div class="card-title">Lawang Sewu <span class="card-rating">★ 4.8</span></div>
+          <p>Museum bersejarah dengan banyak pintu yang ikonik di pusat kota Semarang.</p>
+          <div class="tags"><span>Sejarah</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="sam poo kong.jpg" alt="Sam Poo Kong">
+        <div class="card-content">
+          <div class="card-title">Sam Poo Kong <span class="card-rating">★ 4.5</span></div>
+          <p>Museum bersejarah dengan banyak pintu yang ikonik di pusat kota Semarang.</p>
+          <div class="tags"><span>Sejarah</span><span>Religi</span></div>
+        </div>
+      </div>
+      <div class="card highlight">
+        <img src="umbul sidomukti.jpg" alt="Umbul Sidomukti">
+        <div class="card-content">
+          <div class="card-title">Umbul Sidomukti <span class="card-rating">★ 4.3</span></div>
+          <p>Museum bersejarah dengan banyak pintu yang ikonik di pusat kota Semarang.</p>
+          <div class="tags"><span>Alam</span></div>
+        </div>
+      </div>
+    </div>
+    <button class="see-all-button">Lihat Semua Destinasi</button>
+  </section>
+
+  <footer>
+    Copyright &copy; 2024 Discover Semarang<br>
+    All right reserved
+  </footer>
+</body>
+</html>
